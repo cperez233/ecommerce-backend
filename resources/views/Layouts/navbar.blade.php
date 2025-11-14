@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
 
         {{-- 🔷 Logo + Título --}}
-        <a href="{{ url('/products') }}" class="flex items-center space-x-3">
+        <a href="{{ route('products.index') }}" class="flex items-center space-x-3">
             <img src="{{ asset('images/logo_universidad.png') }}" alt="Logo Universidad" class="h-10 w-auto">
             <span class="text-xl font-bold text-gray-800">Mi Tienda</span>
         </a>
